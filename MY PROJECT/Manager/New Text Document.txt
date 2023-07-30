@@ -1,0 +1,32 @@
+ayon
+ayon@gmail.com
+01830533059
+Uttora
+123456
+Ayon@123456
+
+
+
+
+
+function checkUser($tablename, $fmail, $fCpass, $conn){
+    $sql="SELECT * FROM $tablename WHERE fmail='$fmail' AND 
+    fCpass ='$fCpass'";
+    $result=$conn->query($sql);
+return $result;
+}
+
+
+
+
+
+
+function insertData($tablename, $fname,$fmail,$fnumber,$fgender, $fdate, $fbranch, $fsection,$designation,
+$district,$PINnumber,$fCpass, $conn)
+{
+$sql="INSERT INTO $tablename (fname,fmail,fnumber, fgender,fdate, fbranch,fsection,designation, district,
+PINnumber, ,fCpass) VALUES ('$fname','$fmail','$fnumber','$fgender', '$fdate', '$fbranch', '$fsection','$designation',
+'$district','$PINnumber','$fCpass')";
+$result=$conn->query($sql);
+return $result;
+}

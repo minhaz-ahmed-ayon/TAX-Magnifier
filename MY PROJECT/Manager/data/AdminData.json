@@ -1,0 +1,15 @@
+[
+    {
+        "EName": "ayon",
+                      "Email" : "ayon@gmail.com",
+                      "Phone_Number" :"01830533059",
+                      "Gender": "Male",
+                      "DOB" : "01/01/1999",
+                      "BInformation": "uttora",
+                      "Section_No ": "01",
+                      "Designation": "Fresher",
+                      "District" :"Dhaka",
+                      "PIN_Number": "123456",
+                      "Password" : "Ayon@123456"
+    }
+]
